@@ -5,16 +5,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Règlement intérieur : un exemple historique</title>
+  <title>Charte de vie</title>
   <link rel="stylesheet" href="css/deco.css">
 </head>
 
 <body>
-  <h1>Alcatraz: Inmate Regulations, 1956</h1>
+  <h1>Charte de vie</h1>
   <header>
     <article id="booktitle">
-      <h2>Book header</h2>
-      <p>U.S.P., ALCATRAZ</p>
+      <h2>charte de vie</h2>
+      <p>charte de vie</p>
       <p>REVISED 1956</p>
       <p>INMATE Reg. NUMBER, _________________ </p>
       <p>This set of Institution Regulations is issued to you as Institutional Equipment. You are required to keep it in
