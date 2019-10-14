@@ -1,4 +1,4 @@
-# charte-de-vie-
+# charte-de-vie
 <!doctype html>
 
 <html lang="en">
