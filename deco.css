@@ -1,5 +1,6 @@
-
-
+body> header img{
+    widows: 100%;
+}
 <!doctype html>
 
 <html lang="en">
@@ -10,37 +11,37 @@
   <link rel="stylesheet" href="css/deco.css">
 </head>
 
-<center><body></center>
-  <center> <h1>CHARTE DE VIE</h1></center>
+<body>
+  <h1>CHARTE DE VIE</h1> 
+  color:red
   <header>
     <article id="booktitle">
-      <center><h2>Vivre ensemble</h2></center>
+      <h2>Vivre ensemble</h2>
      
     </article>
-    <center><img alt="Vivre ensemble"
-    src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"  width="120" height="75" /></center>
-     
-    
- <center> </header> </center>
+    <img alt="Vivre ensemble"
+      src="https://unsplash.comhttps://unsplash.com/photos/c0rplvWqyZk/photos/Q_Sei-TqSlc.img"
+      
+  </header>
 
-  <center><aside id="note"></center>
-    <center><p>Note: explications choix photo</p><c/center>
+  <aside id="note">
+    <p>Note: explications choix photo</p>
    
-  <center></aside></center>
-  <center><section id="Summary"></center>
-    <center><h2>Sommaire</h2></center>
-  <center><nav id=index></center>
-     <ol>
-      <li>Introduction</li>
-      <li>Valeurs à respecter</li>
-      <li>Points à éviter</li>
-      <li>Conclusion</li>
+  </aside>
+  <section id="Summary">
+    <h2>Sommaire</h2>
+    <nav id=index>
+      <ol>
+        <li>Introduction</li>
+        <li>Valeurs à respecter</li>
+        <li>Points à éviter</li>
+        <li>Conclusion</li>
   
 
       </ol>
-    <center></nav></center>
-  <center></section></center>
-  <center><section id="regulations"></center>
+    </nav>
+  </section>
+  <section id="regulations">
     
     
     </aside>
@@ -78,14 +79,20 @@
     
 
   
-    
+
   </section>
   <script src="js/scripts.js"></script>
   <footer>
     <p>© Normandie Web School</p>
     <p>Ce site et l'ensemble des ressources associées est publié selon les termes de la licence <a
-        href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">CC BY-NC-SA 3.0 FR</a></p> 
+        href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">CC BY-NC-SA 3.0 FR</a></p>
   </footer>
 </body>
 
 </html>
+
+
+
+
+
+<
