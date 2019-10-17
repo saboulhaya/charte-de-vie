@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font: 1.2em "Arial", times, serif;
+}
+
+/* Menu */
+
+/* source: https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html */
+
+#navigation {
+    text-align: center;
+    background: white;
+    margin: 0;
+    padding: 20px;
+}
+
+#navigation li {
+    display: inline;
+}
+
+#navigation li a {
+    color: #ca7e7e;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+#navigation li a:hover {
+    background: #ca7e7e;
+    color: white;
+}
+
+/* Page d'accueil */
+
+#page-accueil {
+    padding: 0;
+    display: flex;
+}
+
+#page-accueil img {
+    /* hauteur sur toute la page: https://www.alsacreations.com/astuce/lire/51-hauteur-100-element.html */
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+/* Centered text */
+
+/* Titre principale */
+
+#page-accueil h1 {
+    color: white;
+    font-size: 70px;
+    /* source: https://www.w3schools.com/howto/howto_css_image_text.asp */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Sections */
+
+section {
+    padding: 70px 140px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section .contenu {
+    /*
+    https://developer.mozilla.org/fr/docs/Web/CSS/margin
+    Centrer horizontalement
+    */
+    display: flex;
+    justify-content: center;
+}
+
+section .contenu article {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 20px;
+}
+
+section .contenu article h3 {
+    text-align: center
+}
+
+#intro, #points-a-eviter, footer {
+    background-color: #d4c6df;
+}
+
+#valeurs-a-respecter, #conclusion {
+    background-color: rgb(252, 244, 244);
+}
+
+footer {
+    display: flex;
+    /* contexte sur le parent */
+    flex-direction: column;
+    /* direction d'affichage verticale */
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
