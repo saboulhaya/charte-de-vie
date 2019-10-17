@@ -1,0 +1,23 @@
+
+/* Menu */
+
+/* source: https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html */
+
+#navigation {
+    text-align: center;
+    background: #544265;
+    margin: 0;
+    height: 40px;
+}
+
+#navigation li {
+    display: inline;
+}
+
+#navigation li a {
+    color: white;
+}
+
+#navigation li:hover {
+    background: #ab87ce;
+}
